@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-body{
+body {
     margin:0px;
     margin-top:60px;
     padding: 0px;
@@ -11,7 +11,8 @@ body{
     background-color: #424242;
     color: #EEEEEE;
  }
- nav{
+
+ nav {
     display: flex;
     position: fixed;
     top:0;
@@ -20,9 +21,11 @@ body{
     overflow: auto;
     height: auto;
  }
- .left-links{
+
+ .left-links {
     flex:1 1 200px;
  }
+
  .links {
     display: inline-block;
     text-align: center;
@@ -33,20 +36,21 @@ body{
     border-radius: 10px;
  
  }
+
  .links:hover {
      background-color: #02D1FF;
        color: black;
  }
- .selected{
+
+ .selected {
      background-color: #0258FF;
        color: #EEEEEE;
          
  }
+
 .form-container {
     left: 10px
     border: 2px solid #02D1FF;
     border-radius: 10px;
     margin-left: 20px;
-}
-
 }
