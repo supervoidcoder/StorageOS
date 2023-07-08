@@ -42,6 +42,11 @@ body{
        color: #EEEEEE;
          
  }
-#form-container{
+.form-container {
+    left: 10px
+    border: 2px solid #02D1FF;
+    border-radius: 10px;
     margin-left: 20px;
+}
+
 }
